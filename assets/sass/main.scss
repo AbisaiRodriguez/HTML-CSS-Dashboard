@@ -20,8 +20,15 @@ body {
   top: 0;
   bottom: 0;
 
+  .web-title{
+    margin-left: 30%;
+    margin-top: 25%;
+    font-size: 1.8rem;
+    color: white;
+  }
+
   nav{
-    padding-top: 100px;
+    padding-top: 50px;
 
     a{
       display: block;
@@ -83,12 +90,12 @@ header{
       font-size: 1.3rem;
       color: $greenNeon;
       padding: 10px;
-      font-weight: 80;
+      font-weight: 200;
       width: 80%;
       transition: all 0.5s ease-in-out;
 
       &:hover{
-        background: $greyLightFont2;
+        background: $greyLightBG;
       }
     }
   }
@@ -157,6 +164,6 @@ header{
   input:focus,
   textarea:focus,
   input:active{
-  background: $greyLightFont2;
+  background: $greyLightFont;
   outline: none;
 }

@@ -110,4 +110,20 @@
       }
     }
   }
+    table {
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: none;
+      padding: 10px;
+      text-align: center;
+      background: white;
+
+    }
+
+    th{
+      border-bottom: 1px solid black;
+      color: $greyLightFont2;
+    }
 }
