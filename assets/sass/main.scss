@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: $greyLight;
+  background: $greyLightBG;
 }
 
 #sideMenu {
@@ -25,7 +25,7 @@ body {
 
     a{
       display: block;
-      color: $greyDark;
+      color: $greyDarkBG;
       text-decoration: none;
       padding: 15px 30px;
       font-weight: 300;
@@ -42,7 +42,7 @@ body {
       }
 
       .fa{
-        color: $greyDark;
+        color: $greyDarkBG;
         font-size: 1.4rem;
         margin-right: 0.8rem;
         display: inline-block;
@@ -74,7 +74,7 @@ header{
     width: 50%;
 
     .fa{
-      color: $greyDark;
+      color: $greyDarkBG;
     }
 
     input[type="text"] {
@@ -88,7 +88,7 @@ header{
       transition: all 0.5s ease-in-out;
 
       &:hover{
-        background: $greyLight;
+        background: $greyLightFont2;
       }
     }
   }
@@ -157,6 +157,6 @@ header{
   input:focus,
   textarea:focus,
   input:active{
-  background: $greyLight;
+  background: $greyLightFont2;
   outline: none;
 }
